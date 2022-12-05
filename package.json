@@ -1,0 +1,28 @@
+{
+  "name": "cs171-finalproject",
+  "version": "1.0.0",
+  "description": "My final project for CS171 - Data Visualization. It is already complete, this work is to restyle it using Sass.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlieh205/CS171-FinalProject.git"
+  },
+  "keywords": [
+    "Visualization",
+    "D3.js",
+    "Sass",
+    "Bootstrap"
+  ],
+  "author": "Charlie Harrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlieh205/CS171-FinalProject/issues"
+  },
+  "homepage": "https://github.com/charlieh205/CS171-FinalProject#readme"
+}
