@@ -2,12 +2,12 @@
   "name": "cs171-finalproject",
   "version": "1.0.0",
   "description": "My final project for CS171 - Data Visualization. It is already complete, this work is to restyle it using Sass.",
-  "main": "index.js",
+  "main": "main.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch scss:assets/css"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/charlieh205/CS171-FinalProject/issues"
   },
-  "homepage": "https://github.com/charlieh205/CS171-FinalProject#readme"
+  "homepage": "https://github.com/charlieh205/CS171-FinalProject#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "postcss-cli": "^10.1.0"
+  }
 }
